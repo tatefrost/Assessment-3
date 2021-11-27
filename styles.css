@@ -1,0 +1,48 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+/* this makes the buttons yellow and bigger*/
+.buttons {
+	background-color: yellow;
+	height: 50px;
+}
+
+/* added in to make buttons even bigger when hovering over for fun */
+.buttons:hover {
+	transform: scale(1.1);
+} 
